@@ -1,0 +1,40 @@
+.img1{
+    width: 60px;
+    margin:10px;
+}
+h1{
+    display:inline;
+    margin: 20px;
+}
+header{
+    background-color: rgb(94, 202, 166);
+}
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(151, 221, 198);
+}
+.contenedor_header{
+    display: flex;
+    justify-content: end center;
+}
+
+.text_cont{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKbrNcEQe15NJNq0fqHFJ1AkMxJIc5YzqBQ&usqp=CAU");
+    background-size:cover;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.precipitaciones-cont{
+    background-color:rgb(94, 202, 166) ;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    width: 200px;
+    background-image: url("https://media.tenor.com/F4PiN6xdD9gAAAAM/rain-lights.gif");
+    background-size: cover;
+    color: rgb(68, 68, 253);
+}
+

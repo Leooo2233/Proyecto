@@ -1,1 +1,1 @@
-document.write ("Hola")
+// document.write ("Hola bro ¿todo bien?")
