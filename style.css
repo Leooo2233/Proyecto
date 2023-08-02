@@ -14,7 +14,7 @@ body{
     padding:0px;
     background-color: rgb(151, 221, 198);
 }
-.contenedor_header{
+.contenedor_header {
     display: flex;
     justify-content: end center;
 }
@@ -27,7 +27,7 @@ body{
     margin: 10px;
 }
 
-.precipitaciones-cont{
+.aside__contenedor {
     background-color:rgb(94, 202, 166) ;
     padding: 10px;
     margin:10px;
@@ -35,6 +35,20 @@ body{
     width: 200px;
     background-image: url("https://media.tenor.com/F4PiN6xdD9gAAAAM/rain-lights.gif");
     background-size: cover;
-    color: rgb(68, 68, 253);
+    color: #fff;
+    display: inline-block;
+
+}
+
+.contenedor__p--text2 {
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKbrNcEQe15NJNq0fqHFJ1AkMxJIc5YzqBQ&usqp=CAU");
+     display: inline-block;
+    width: 80%;
+    position: relative;
+    background-size:cover;
+}
+
+.contendor__p--informacion {
+    padding: 10px;
 }
 
