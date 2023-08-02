@@ -37,16 +37,18 @@ body{
     background-image: url("https://media.tenor.com/F4PiN6xdD9gAAAAM/rain-lights.gif");
     background-size: cover;
     color: #fff;
+    display: inline-flex;
+    height: 300px;
     display: inline-block;
 }
 
+
+
 .contenedor__p--text2 {
      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKbrNcEQe15NJNq0fqHFJ1AkMxJIc5YzqBQ&usqp=CAU");
+     width: 600px;
      display: inline-block;
-    width: 80%;
-    position: relative;
-    background-size:cover;
-    margin:10px;
+
 }
 
 .contendor__p--informacion {
