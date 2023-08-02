@@ -6,15 +6,16 @@ h1{
     display:inline;
     margin: 20px;
 }
-header{
+.header__contenedor {
     background-color: rgb(94, 202, 166);
+
 }
 body{
     margin: 0px;
     padding:0px;
     background-color: rgb(151, 221, 198);
 }
-.contenedor_header {
+.header__contenedor--h1 {
     display: flex;
     justify-content: end center;
 }
@@ -37,7 +38,6 @@ body{
     background-size: cover;
     color: #fff;
     display: inline-block;
-
 }
 
 .contenedor__p--text2 {
@@ -46,6 +46,7 @@ body{
     width: 80%;
     position: relative;
     background-size:cover;
+    margin:10px;
 }
 
 .contendor__p--informacion {
