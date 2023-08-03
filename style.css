@@ -8,6 +8,7 @@ h1{
 }
 .header__contenedor {
     background-color: rgb(94, 202, 166);
+    height: 100px;
 
 }
 body{
@@ -16,7 +17,7 @@ body{
     background-color: rgb(151, 221, 198);
 }
 .header__contenedor--h1 {
-    display: flex;
+    display: inline-flex;
     justify-content: end center;
 }
 
@@ -38,8 +39,10 @@ body{
     background-size: cover;
     color: #fff;
     display: inline-flex;
-    height: 300px;
+    height: 350px;
     display: inline-block;
+    border: #000 solid 2px;
+    box-shadow: #fff 0 4px 30px;
 }
 
 
@@ -54,7 +57,7 @@ body{
     margin:10px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, .9)), url("https://images.pexels.com/photos/5326925/pexels-photo-5326925.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   
-  border: #000 solid 5px;
+  border: #000 solid 2px;
 }
 
 .contendor__p--informacion {
@@ -62,3 +65,11 @@ body{
     width: 400px;
 }
 
+.header__contenedor--barra {
+    display: inline-block;
+    justify-content: end center;
+}
+
+.barra--input {
+    background-color: #000;
+}
