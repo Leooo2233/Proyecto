@@ -22,7 +22,7 @@ body{
 }
 
 .text_cont{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKbrNcEQe15NJNq0fqHFJ1AkMxJIc5YzqBQ&usqp=CAU");
+    background-image: url("https://media.istockphoto.com/id/1391832007/es/foto/cielo-azul-de-verano-degradado-de-fondo-blanco-claro-belleza-clara-nublada-en-sol-calma.jpg?b=1&s=170667a&w=0&k=20&c=4PFL0wPNVatDheV4xFibcpJu0Acb5gB9dShFHkPr4Bo=");
     background-size:cover;
     padding: 10px;
     border-radius: 20px;
@@ -30,46 +30,51 @@ body{
 }
 
 .aside__contenedor {
-    background-color:rgb(94, 202, 166) ;
-    padding: 10px;
-    margin:10px;
-    border-radius: 10px;
-    width: 200px;
+    text-align: center;
     background-image: url("https://media.tenor.com/F4PiN6xdD9gAAAAM/rain-lights.gif");
     background-size: cover;
-    color: #fff;
-    display: inline-flex;
-    height: 350px;
+    width: 200px;
+    padding: 10px;
+    height: 425px;
     display: inline-block;
-    border: #000 solid 2px;
-    box-shadow: #fff 0 4px 30px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.contenedor__p--text1{
+    display: inline;
+}
+main{
+    display: flex;
+    justify-content: center;
 }
 
-
-
 .contenedor__p--text2 {
-     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKbrNcEQe15NJNq0fqHFJ1AkMxJIc5YzqBQ&usqp=CAU");
-     width: 80%;
-     margin: 10px;
-     display: inline-block;
-    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgrkNxcJhdCTi95Q9QNkLnmvvimrK4cGP5FA&usqp=CAU");
     background-size:cover;
-    margin:10px;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, .9)), url("https://images.pexels.com/photos/5326925/pexels-photo-5326925.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  
-  border: #000 solid 2px;
+    margin: 10px;
+    display: inline-block;
+    border: #000 solid 2px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+.h2text{
+    margin: 0px;
+    text-decoration: underline;
 }
 
 .contendor__p--informacion {
     padding: 10px;
     width: 400px;
+    height:300px;
+    display: inline;
 }
 
-.header__contenedor--barra {
-    display: inline-block;
-    justify-content: end center;
-}
+
 
 .barra--input {
     background-color: #000;
+    
 }
