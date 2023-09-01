@@ -8,4 +8,3 @@ seccionA = document.querySelector(".aside__contenedor")
 seccionA.style.display = "none"
 
 
-
