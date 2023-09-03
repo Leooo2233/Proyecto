@@ -1,3 +1,6 @@
+*{
+    scroll-behavior:smooth;
+}
 .img1{
     width: 60px;
     margin:10px;
@@ -24,6 +27,7 @@ body{
 .text_cont{
     background-image: url("https://images.pexels.com/photos/2344227/pexels-photo-2344227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
+    background-attachment: fixed;
     padding: 10px;
     border-radius: 20px;
     margin: 10px;
@@ -38,6 +42,7 @@ body{
     margin: 10px;
     text-align: center;
     width: 400px;
+    
 }
 
 
@@ -48,26 +53,27 @@ body{
 .text_cont, .text_cont2, b, p, .h2text, .text_title{
     color: rgb(6, 6, 128);
 }
-.aside__contenedor {
+.article__contenedor {
     text-align: center;
     background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
     width: 400px;
     padding: 10px;
-    display: inline;
+    display:inline;
     margin: 10px;
     color: #fff;
     border-radius: 10px;
     
 }
 .contenedor__p--text1{
-    display: inline;
+        background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        display: inline;
+        width: 400px;
+        padding: 50px;
 }
 main{
-    display: flex;
-    justify-content: center;
-    flex: nowrap;
-    
+  overflow-y: hidden;
+  flex-grow: 0;
 }
 
 .contenedor__p--text2 {
@@ -93,3 +99,41 @@ main{
     display: inline;
 }
 
+.text_content{
+    background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.sub_text_content{
+    padding: 10px;
+    width: 400px;
+    display: inline;
+}
+
+.header__contenedor--h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+title_cont{
+    display: flex;
+    
+}
+.img_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subtitle_cont{
+    display: flex;
+    justify-content: center;
+}
+.barra_cont{
+    margin: 10px;
+}
