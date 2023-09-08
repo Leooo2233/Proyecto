@@ -4,17 +4,39 @@
 
 //para que esto?
 
-const contenedor = document.querySelector(".Carrousel-items")
+document.addEventListener("DOMContentLoaded", function () {
+    const contenedor = document.querySelector(".Carrousel-items");
+    const intervalo = 60000; // 60 segundos en milisegundos
+    const desplazamiento = 700;
+    let scrollPosition = 0;
 
-let intervalo = null;
+    const start = () => {
+        const scrollWidth = contenedor.scrollWidth - contenedor.clientWidth;
 
-const start = () => {
-    intervalo = setInterval(function () {
-        contenedor.scrollLeft = contenedor.scrollLeft + 10;
-    }, 10);
-};
-const stop = () => {
+        const scroll = () => {
+            if (scrollPosition < scrollWidth) {
+                contenedor.scrollLeft += desplazamiento;
+                scrollPosition += desplazamiento;
+            } else {
+                contenedor.scrollLeft = 0; // Vuelve al inicio
+                scrollPosition = 0;
+            }
+        };
 
-}
+        setInterval(scroll, intervalo);
+    };
 
-start()
+    start(); // Comienza el carrusel
+});
+
+
+
+
+
+
+
+
+
+
+
+

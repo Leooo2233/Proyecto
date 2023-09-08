@@ -14,9 +14,16 @@ body{
 }
 
 .carrousel_item1, .carrousel_item2, .carrousel_item3, .carrousel_item4{
-    display: flex;
     min-width: 400px;
     max-width: 399px;
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 /* -------------------Header y Contenedores---------------------*/
 .img1{
@@ -55,17 +62,29 @@ h1{
     align-items: center;
 }
 /* -------------------items del carrousel---------------------*/
+
 .carrousel_item1 {
+    background-image: url("https://media.istockphoto.com/id/1547926596/es/foto/lento-sin-se%C3%B1al-de-estela-en-un-lago.jpg?s=1024x1024&w=is&k=20&c=ZY5dK3PBiswUdiNAomRSmrtb0bMqc8odVgjvokGrhq8=");
+    background-size:cover;
+    margin: 10px;
+    border: #000 solid 2px;
+    min-width: 400px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.carrousel_item2{
     background-image: url("https://media.istockphoto.com/id/1547926596/es/foto/lento-sin-se%C3%B1al-de-estela-en-un-lago.jpg?s=1024x1024&w=is&k=20&c=ZY5dK3PBiswUdiNAomRSmrtb0bMqc8odVgjvokGrhq8=");
     background-size:cover;
     margin: 10px;
     display: block;
     border: #000 solid 2px;
-    width: 400px;
+    min-width: 400px;
+    max-width: 300px;
     text-align: center;
     border-radius: 10px;
+    
 }
-
 .carrousel_item2{
     background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
@@ -96,7 +115,15 @@ h1{
     margin: 10px;
     text-align: center;
     width: 400px;
-    
+}
+.carrousel_item5{
+    background-image: url("https://images.pexels.com/photos/15157864/pexels-photo-15157864/free-photo-of-paisaje-naturaleza-arena-desierto.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
 }
 /* -------------------subcontenedores de los items---------------------*/
 .h2text{
@@ -109,7 +136,8 @@ h1{
 /* -------------------contenedorres del carrousel---------------------*/
 
 .contenedor_corrousel{
-    padding: 20px 0px;
+   
+
 }    
 .Carrousel-items{
     display: flex;
@@ -145,6 +173,7 @@ h1{
 .flecha_derecha{
     right: 0px;
 }
+
 
 
 
