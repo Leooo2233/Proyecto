@@ -3,8 +3,18 @@
 // me alegro bro
 
 //para que esto?
-seccionA = document.querySelector(".aside__contenedor")
 
-seccionA.style.display = "none"
+const contenedor = document.querySelector(".Carrousel-items")
 
+let intervalo = null;
 
+const start = () => {
+    intervalo = setInterval(function () {
+        contenedor.scrollLeft = contenedor.scrollLeft + 10;
+    }, 10);
+};
+const stop = () => {
+
+}
+
+start()

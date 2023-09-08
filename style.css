@@ -1,101 +1,72 @@
+/* -------------------Seleccionadores Generales---------------------*/
 *{
     scroll-behavior:smooth;
 }
-.img1{
-    width: 60px;
-    margin:10px;
-}
-h1{
-    display:inline;
-    margin: 20px;
-}
-.header__contenedor {
-    background-color: rgb(94, 202, 166);
-    height: 100px;
 
-}
 body{
     margin: 0px;
     padding:0px;
     background-color: rgb(151, 221, 198);
 }
-.header__contenedor--h1 {
-    display: inline-flex;
-    justify-content: end center;
-}
-
-.text_cont{
-    background-image: url("https://images.pexels.com/photos/2344227/pexels-photo-2344227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size:cover;
-    background-attachment: fixed;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
-}
-.text_cont2{
-    background-image: url("https://images.pexels.com/photos/15157864/pexels-photo-15157864/free-photo-of-paisaje-naturaleza-arena-desierto.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size:cover;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
-    
-}
-
-
-.text_title{
-    text-decoration: underline ;
-}
 
 .text_cont, .text_cont2, b, p, .h2text, .text_title{
     color: rgb(6, 6, 128);
 }
-.article__contenedor {
-    text-align: center;
-    background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size: cover;
-    width: 400px;
-    padding: 20px;
-    display:block;
-    margin: 10px;
-    color: #fff;
-    border-radius: 10px;
+
+.carrousel_item1, .carrousel_item2, .carrousel_item3, .carrousel_item4{
+    display: flex;
+    min-width: 400px;
+    max-width: 399px;
 }
-.contenedor__p--text1{
-        background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-        display: block;
-        width: 400px;
-        padding: 50px;
+/* -------------------Header y Contenedores---------------------*/
+.img1{
+    width: 60px;
+    margin:10px;
 }
 
-.contenedor__p--text2 {
+h1{
+    display:inline;
+    margin: 20px;
+}
+
+.barra_cont{
+    margin-right: 10px;
+}
+
+.title_cont{
+    margin: 10px
+    
+}
+
+.subtitle_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.header__contenedor {
+    background-color: rgb(94, 202, 166);
+    height: 100px;
+
+}
+
+.header__contenedor--h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -------------------items del carrousel---------------------*/
+.carrousel_item1 {
     background-image: url("https://media.istockphoto.com/id/1547926596/es/foto/lento-sin-se%C3%B1al-de-estela-en-un-lago.jpg?s=1024x1024&w=is&k=20&c=ZY5dK3PBiswUdiNAomRSmrtb0bMqc8odVgjvokGrhq8=");
     background-size:cover;
     margin: 10px;
     display: block;
     border: #000 solid 2px;
     width: 400px;
-    height: 400px;
     text-align: center;
     border-radius: 10px;
 }
-.h2text{
-    margin: 0px;
-    text-decoration: underline;
 
-}
-
-.contendor__p--informacion {
-    padding: 10px;
-    width: 400px;
-    height:300px;
-    display: inline;
-}
-
-.text_content{
+.carrousel_item2{
     background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
     border-radius: 20px;
@@ -106,34 +77,48 @@ body{
     padding-bottom: 20px;
 
 }
-
-.sub_text_content{
+.carrousel_item3{
+    background-image: url("https://images.pexels.com/photos/2344227/pexels-photo-2344227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    background-attachment: fixed;
     padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
     width: 400px;
-    display: block;
 }
 
-.header__contenedor--h1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-title_cont{
-    margin: 10px
+.carrousel_item4{
+    background-image: url("https://images.pexels.com/photos/15157864/pexels-photo-15157864/free-photo-of-paisaje-naturaleza-arena-desierto.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
     
 }
-.img_cont{
+/* -------------------subcontenedores de los items---------------------*/
+.h2text{
+    margin: 0px;
+    text-decoration: underline;
+
+}
+
+
+/* -------------------contenedorres del carrousel---------------------*/
+
+.contenedor_corrousel{
+    padding: 20px 0px;
+}    
+.Carrousel-items{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    overflow-x: scroll;
 }
-.subtitle_cont{
-    display: flex;
-    justify-content: center;
-}
-.barra_cont{
-    margin-right: 10px;
-}
+
+
+
+/* -------------------en revisión---------------------*/
 
 .flecha_izquierda, .flecha_derecha{
     position: absolute;
@@ -161,13 +146,12 @@ title_cont{
     right: 0px;
 }
 
-.contenedor_corrousel{
-    width: 100%;
-    padding: 20px 0px;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
-.Carrousel{
-    display: flex;
-    overflow: hidden;
-}
+
+
+
+
+
+
+
+
+
