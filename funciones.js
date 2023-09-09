@@ -7,5 +7,6 @@
 //Ni idea che
 seccionA = document.querySelector(".aside__contenedor")
 
-seccionA.style.display = "none"
+seccionA.style.display = "block";
+
 
