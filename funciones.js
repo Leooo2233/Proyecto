@@ -7,7 +7,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contenedor = document.querySelector(".Carrousel-items");
     const intervalo = 60000; // 60 segundos en milisegundos
-    const desplazamiento = 700;
+    const desplazamiento = 1500;
     let scrollPosition = 0;
 
     const start = () => {
@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     start(); // Comienza el carrusel
 });
+
+
 
 
 
