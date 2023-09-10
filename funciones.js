@@ -1,6 +1,17 @@
 // document.write ("Hola bro ¿todo bien?")
 //Si bro, todo bien
 // me alegro bro
+<<<<<<< HEAD
+// y vos?
+
+//para que esto?
+//Ni idea che
+seccionA = document.querySelector(".aside__contenedor")
+
+seccionA.style.display = "block";
+
+
+=======
 
 //para que esto?
 
@@ -42,3 +53,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+>>>>>>> feb09c2fa6ce24302215678b4d99086f05a7495a
