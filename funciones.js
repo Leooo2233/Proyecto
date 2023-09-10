@@ -1,44 +1,39 @@
 // document.write ("Hola bro ¿todo bien?")
 //Si bro, todo bien
 // me alegro bro
-<<<<<<< HEAD
 // y vos?
 
 //para que esto?
 //Ni idea che
-seccionA = document.querySelector(".aside__contenedor")
+// seccionA = document.querySelector(".aside__contenedor")
 
-seccionA.style.display = "block";
+// seccionA.style.display = "block";
 
 
-=======
+// document.addEventListener("DOMContentLoaded", function () {
+//     const contenedor = document.querySelector(".Carrousel-items");
+//     const intervalo = 5000; // 60 segundos en milisegundos
+//     const desplazamiento = 450;
+//     let scrollPosition = 0;
 
-//para que esto?
+//     const start = () => {
+//         const scrollWidth = contenedor.scrollWidth - contenedor.clientWidth;
 
-document.addEventListener("DOMContentLoaded", function () {
-    const contenedor = document.querySelector(".Carrousel-items");
-    const intervalo = 5000; // 60 segundos en milisegundos
-    const desplazamiento = 1500;
-    let scrollPosition = 0;
+//         const scroll = () => {
+//             if (scrollPosition < scrollWidth) {
+//                 contenedor.scrollLeft += desplazamiento;
+//                 scrollPosition += desplazamiento;
+//             } else {
+//                 contenedor.scrollLeft = 0; // Vuelve al inicio
+//                 scrollPosition = 0;
+//             }
+//         };
 
-    const start = () => {
-        const scrollWidth = contenedor.scrollWidth - contenedor.clientWidth;
+//         setInterval(scroll, intervalo);
+//     };
 
-        const scroll = () => {
-            if (scrollPosition < scrollWidth) {
-                contenedor.scrollLeft += desplazamiento;
-                scrollPosition += desplazamiento;
-            } else {
-                contenedor.scrollLeft = 0; // Vuelve al inicio
-                scrollPosition = 0;
-            }
-        };
-
-        setInterval(scroll, intervalo);
-    };
-
-    start(); // Comienza el carrusel
-});
+//     start(); // Comienza el carrusel
+// });
 
 
 
@@ -53,4 +48,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
->>>>>>> feb09c2fa6ce24302215678b4d99086f05a7495a

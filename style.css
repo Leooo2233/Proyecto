@@ -67,71 +67,48 @@ h1{
 /* -------------------items del carrousel---------------------*/
 .carrousel_item{
     border: 2px black solid; 
+    margin: 10px;
+    border: #000 solid 2px;
+    min-width: 400px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
 }
 .carrousel_item1 {
     background-image: url("https://images.pexels.com/photos/3046638/pexels-photo-3046638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size:cover;
-    margin: 10px;
-    border: #000 solid 2px;
-    min-width: 400px;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 50px;
+    
 }
 .carrousel_item2{
     background-image: url("https://images.pexels.com/photos/6913673/pexels-photo-6913673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
-    margin: 10px;
-    display: block;
-    border: #000 solid 2px;
-    min-width: 400px;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 10px;
-    
 }
 .carrousel_item3{
     background-image: url("https://images.pexels.com/photos/4207904/pexels-photo-4207904.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
-    border-radius: 20px;
-    text-align: center;
-    width: 400px;
-    display: block;
-    margin: 10px;
-    padding-bottom: 20px;
-    z-index: 500;
-    margin-right: 50px;
 }
 
 .carrousel_item4{
     background-image: url("https://images.pexels.com/photos/15157864/pexels-photo-15157864/free-photo-of-paisaje-naturaleza-arena-desierto.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size:cover;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
 }
 .carrousel_item5{
     background-image: url("https://media.istockphoto.com/id/964156012/es/foto/campo-agr%C3%ADcolo-y-ganader%C3%ADa-del-pa%C3%ADs.jpg?s=612x612&w=0&k=20&c=CiIvpKC7_k2SW_vR1bIvTLJjQ7x172l8i_BiDUuFMV4=");
     background-size:cover;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
     }
 
 .carrousel_item6{
     background-image: url("https://media.istockphoto.com/id/964156012/es/foto/campo-agr%C3%ADcolo-y-ganader%C3%ADa-del-pa%C3%ADs.jpg?s=612x612&w=0&k=20&c=CiIvpKC7_k2SW_vR1bIvTLJjQ7x172l8i_BiDUuFMV4=");
     background-size:cover;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
-    margin-right: 30px;
+    min-width: 600px;
+}
+.carrousel_item7{
+    background-image: url("https://images.pexels.com/photos/7728023/pexels-photo-7728023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+.carrousel_item8{
+    background-image: url("https://images.pexels.com/photos/8917890/pexels-photo-8917890.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
 }
 
 /* -------------------subcontenedores de los items---------------------*/
@@ -139,7 +116,7 @@ h1{
     margin: 0px;
     text-decoration: underline;
     font-family: 'Oswald', sans-serif;
-    font-weight: 600;
+    font-weight: 650;
     font-size: 30px;
 }
 p b{
@@ -150,12 +127,11 @@ p b{
 /* -------------------contenedorres del carrousel---------------------*/
 
 .contenedor_corrousel{
-   
-padding: 20px, 0px;
+    padding: 20px, 0px;
 }    
 .Carrousel-items{
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 
