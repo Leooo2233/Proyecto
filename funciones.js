@@ -6,7 +6,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     const contenedor = document.querySelector(".Carrousel-items");
-    const intervalo = 60000; // 60 segundos en milisegundos
+    const intervalo = 5000; // 60 segundos en milisegundos
     const desplazamiento = 1500;
     let scrollPosition = 0;
 
